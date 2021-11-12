@@ -10,12 +10,19 @@
 
 
 
-
-
+/* photo-gallery */
+@import "../blocks/photo-gallery/photo-gallery.css";
+@import "../blocks/photo-gallery/__list/photo-gallery__list.css";
+@import "../blocks/photo-gallery/__one-item/photo-gallery__one-item.css";
+@import "../blocks/photo-gallery/__two-item/photo-gallery__two-item.css";
+@import "../blocks/photo-gallery/__three-item/photo-gallery__three-item.css";
+@import "../blocks/photo-gallery/__four-item/photo-gallery__four-item.css";
+@import "../blocks/photo-gallery/__five-item/photo-gallery__five-item.css";
 
 /* in-team */
 @import "../blocks/in-team/in-team.css";
 @import "../blocks/in-team/__list/in-team__list.css";
+@import "../blocks/in-team/__list-item/in-team__list-item.css";
 
 
 /* footer */
