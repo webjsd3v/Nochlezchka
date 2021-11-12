@@ -13,8 +13,9 @@
 
 
 
-
-
+/* in-team */
+@import "../blocks/in-team/in-team.css";
+@import "../blocks/in-team/__list/in-team__list.css";
 
 
 /* footer */
