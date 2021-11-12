@@ -1,4 +1,30 @@
 @import "../vendor/normalize.css";
 @import "../blocks/root/root.css";
 @import "../vendor/fonts/fonts.css";
+@import "../blocks/page/page.css";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__title/footer__title.css";
+@import "../blocks/footer/__mail/footer__mail.css";
+@import "../blocks/footer/__logo/footer__logo.css";
+@import "../blocks/footer/__organizer/footer__organizer.css";
+@import "../blocks/footer/__made-with-love/footer__made-with-love.css";
+@import "../blocks/footer/__social/footer__social.css";
+@import "../blocks/footer/__social-link/footer__social-link.css";
+@import "../blocks/footer/__link/footer__link.css";
 

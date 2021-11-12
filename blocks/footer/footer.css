@@ -1,0 +1,16 @@
+.footer{
+    padding: 80px 40px 75px;
+    background-color: rgba(235, 233, 237, 1);
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 561px) {
+    .footer{
+        padding: 40px 20px 45px;
+        background-color: rgba(255, 212, 0, 1);
+        /* display: flex; */
+        /* justify-content: space-between; */
+        flex-direction: column;
+    }
+}
