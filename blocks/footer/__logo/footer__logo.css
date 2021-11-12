@@ -10,7 +10,8 @@
         width: 140px;
     }
 }
-@media screen and (max-width: 561px) {
+
+@media screen and (max-width: 769px) {
     .footer__logo {
         display: none;
     }
