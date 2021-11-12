@@ -26,3 +26,15 @@
         line-height: 20px;
     }
 }
+
+@media screen and (max-width: 769px) {
+    .footer__link {
+        position: relative;
+    }
+
+    .footer__link::after{
+        position: absolute;
+        right: 0;
+        /* padding-left: auto; */
+    }
+}
