@@ -21,7 +21,7 @@
   
   .header__event::before {
     content: '';
-    background-image: url('../img/header/heart.svg');
+    background-image: url('../../../img/header/heart.svg');
     position: absolute;
     background-size: cover;
     left: -33px;
@@ -32,5 +32,5 @@
   
   .header__event:hover::before {
     animation: pulse-btn 1.5s infinite linear;
-    background-image: url('../img/header/heart__red.svg');
+    background-image: url('../../../img/header/heart__red.svg');
   }
