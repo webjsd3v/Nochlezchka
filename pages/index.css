@@ -1,4 +1,57 @@
 @import "../vendor/normalize.css";
 @import "../blocks/root/root.css";
 @import "../vendor/fonts/fonts.css";
+@import "../blocks/page/page.css";
+/*--- HEADER ---*/
+@import "../blocks/";
+@import "../blocks/header/header.css";
+@import "../blocks/header/__wrapper/header__wrapper.css";
+@import "../blocks/header/__logo/header__logo.css";
+@import "../blocks/header/__location/header__location.css";
+@import "../blocks/header/__event/header__event.css";
+@import "../blocks/header/__burger/header__burger.css";
+  /*--- MENU ---*/
+@import "../blocks/menu/menu.css";
+@import "../blocks/menu/_off/menu_off.css";
+@import "../blocks/menu/__list/menu__list.css";
+@import "../blocks/menu/__item/menu__item.css";
+@import "../blocks/menu/__link/menu__link.css";
+  /*--- BUTTON ---*/
+@import "../blocks/button/button.css";
+@import "../blocks/button/_primary/button_primary.css";
+  /*--- PROMO ---*/
+@import "../blocks/promo/promo.css";
+@import "../blocks/promo/__logo/promo__logo.css";
+@import "../blocks/promo/__follow-up/promo__follow-up.css";
+@import "../blocks/promo/__button/promo__button.css";
+  /*--- KEYFRAMES ---*/
+@import "../blocks/keyframes/keyframes.css";
+  /*--- ABOUT ---*/
+@import "../blocks/about/about.css";
+@import "../blocks/about/__title/about__title.css";
+@import "../blocks/about/__wrapper/about__wrapper.css";
+@import "../blocks/about/__text/about__text.css";
+@import "../blocks/about/__button/about__button.css";
+  /*  FORM  */
+@import "../blocks/form-scroll/__container/form-scroll__container.css";
+@import "../blocks/form-scroll/__text/form-scroll__text.css";
+@import "../blocks/form-scroll/__navigation/form-scroll__navigation.css";
+@import "../blocks/form-scroll/__menu/form-scroll__menu.css";
+@import "../blocks/form-scroll/__menu-item/form-scroll__menu-item.css";
+@import "../blocks/form-scroll/__menu-link/form-scroll__menu-link.css";
+@import "../blocks/form-scroll/__container-donate/form-scroll__container-donate.css";
+@import "../blocks/form-scroll/__this-sity/form-scroll__this-sity.css";
+@import "../blocks/form-scroll/__img/form-scroll__img.css";
+
+
+
+
+
+
+
+
+
+
+
+
 
