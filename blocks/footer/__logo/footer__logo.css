@@ -1,0 +1,18 @@
+.footer__logo {
+  flex-basis: 193px;
+  align-self: start;
+}
+
+@media screen and (max-width: 1025px) {
+  .footer__logo {
+    flex-basis: 140px;
+    display: block;
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .footer__logo {
+    display: none;
+  }
+}

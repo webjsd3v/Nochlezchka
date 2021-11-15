@@ -1,0 +1,10 @@
+.footer__made-with-love {
+  flex-basis: 35%;
+  padding-left: 40px;
+}
+
+@media screen and (max-width: 769px) {
+  .footer__made-with-love {
+    margin-bottom: 60px;
+  }
+}
