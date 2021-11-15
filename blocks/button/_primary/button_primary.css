@@ -1,5 +1,5 @@
 .button_primary {
-    background: #7100ff;
-    color: #fcfaf7;
-    border: none;
-  }
+  background: var(--color-primary);
+  color: var(--light-primary);
+  border: none;
+}
