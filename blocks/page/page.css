@@ -1,5 +1,13 @@
 .page{
     font-family: 'TT Firs Neue';
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    min-width: 360px;
+    color: var(--dark-primary);
+    background-color: var(--light-secondary);
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -25,14 +33,4 @@ page_title {
     letter-spacing: -0.01em;
     text-transform: lowercase;
 
-}
-@media screen and (max-width: 769px) {
-    page_title {
-        /* font-weight: 500; */
-        font-size: 32px;
-        line-height: 36px;
-        /* letter-spacing: -0.01em;
-        text-transform: lowercase; */
-    
-    }
 }
