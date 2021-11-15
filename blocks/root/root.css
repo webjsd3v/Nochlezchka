@@ -1,13 +1,13 @@
-:root{
-    --dark-primary: #3B3748;
-    --color-primary: #7100FF;
-    --light-primary: #FCFAF7;
-    --dark-secondary: #96949E;
-    --light-secondary: #EBE9ED;
-    --color-accident: #FFD400;
-    --warning-error: #F40934;
-    --green: #00B998;
-    --white: #FFFFFF;
+:root {
+  --dark-primary: #3B3748;
+  --color-primary: #7100FF;
+  --light-primary: #FCFAF7;
+  --dark-secondary: #96949E;
+  --light-secondary: #EBE9ED;
+  --color-accident: #FFD400;
+  --warning-error: #F40934;
+  --green: #00B998;
+  --white: #FFFFFF;
 }
 
 /*
@@ -47,7 +47,7 @@
 ::-webkit-scrollbar {
 
   display: none;
-  /*height: 4px;*/             /* height of horizontal scrollbar ← You're missing this*/
-  /*width: 4px;*/               /* width of vertical scrollbar */
+  /*height: 4px;*/ /* height of horizontal scrollbar ← You're missing this*/
+  /*width: 4px;*/ /* width of vertical scrollbar */
   /*border: 1px solid #d5d5d5;*/
 }

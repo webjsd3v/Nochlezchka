@@ -1,4 +1,4 @@
 .menu__link {
     text-decoration: none;
-    color: #3b3748;
+    color: var(--dark-primary);
   }

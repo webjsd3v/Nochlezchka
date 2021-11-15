@@ -17,12 +17,12 @@
   background-color: var(--light-primary);
 }
 
-.events__scroll-area::-webkit-scrollbar-thumb{
+.events__scroll-area::-webkit-scrollbar-thumb {
   background-color: var(--color-primary);
   border-radius: 4px;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
   .events__scroll-area {
     box-sizing: border-box;
     display: flex;
