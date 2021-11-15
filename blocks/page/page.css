@@ -8,4 +8,29 @@
     min-width: 360px;
     color: var(--dark-primary);
     background-color: var(--light-secondary);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.page__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.page__link{
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: .3s;
+}
+.page__link:hover{
+    opacity: 0.6;
+}
+
+page_title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-transform: lowercase;
+
 }

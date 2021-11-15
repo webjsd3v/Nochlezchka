@@ -27,3 +27,38 @@
 @import "../blocks/card/__address/card__address.css";
 @import "../blocks/card/__links/card__links.css";
 @import "../blocks/card/__img/card__img.css";
+@import "../blocks/page/page.css";
+
+
+
+
+
+
+
+
+/* photo-gallery */
+@import "../blocks/photo-gallery/photo-gallery.css";
+@import "../blocks/photo-gallery/__list/photo-gallery__list.css";
+@import "../blocks/photo-gallery/__one-item/photo-gallery__one-item.css";
+@import "../blocks/photo-gallery/__two-item/photo-gallery__two-item.css";
+@import "../blocks/photo-gallery/__three-item/photo-gallery__three-item.css";
+@import "../blocks/photo-gallery/__four-item/photo-gallery__four-item.css";
+@import "../blocks/photo-gallery/__five-item/photo-gallery__five-item.css";
+
+/* in-team */
+@import "../blocks/in-team/in-team.css";
+@import "../blocks/in-team/__list/in-team__list.css";
+@import "../blocks/in-team/__list-item/in-team__list-item.css";
+
+
+/* footer */
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__title/footer__title.css";
+@import "../blocks/footer/__mail/footer__mail.css";
+@import "../blocks/footer/__logo/footer__logo.css";
+@import "../blocks/footer/__organizer/footer__organizer.css";
+@import "../blocks/footer/__made-with-love/footer__made-with-love.css";
+@import "../blocks/footer/__social/footer__social.css";
+@import "../blocks/footer/__social-link/footer__social-link.css";
+@import "../blocks/footer/__link/footer__link.css";
+
