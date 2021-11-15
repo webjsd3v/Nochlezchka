@@ -1,0 +1,12 @@
+.promo__logo {
+    display: block;
+    margin: 0 auto 110px;
+  }
+
+  @media all and (max-width: 767px) {
+    .promo__logo {
+      width: 210px;
+      height: 152px;
+      margin-bottom: 250px;
+    }
+} 

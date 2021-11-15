@@ -1,18 +1,91 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ГедонизмФест</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/html/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="pages/index.css">
 </head>
+
 <body class="page">
+
+    <form autocomplete="off" name="scroll" class="form-scroll menu_off">
+        <fieldset class="form-scroll__container">
+            <p class="form-scroll__text">ваш город:</p>
+            <p class="form-scroll__this-sity">Санкт-Петербург</p>
+            <p class="form-scroll__navigation form-scroll__text">навигация</p>
+            <ul class="form-scroll__menu">
+                <li class="form-scroll__menu-item">
+                    <a class="form-scroll__menu-link" href="#">куда пойти</a>
+                </li>
+                <li class="form-scroll__menu-item">
+                    <a class="form-scroll__menu-link" href="#">стать участником</a>
+                </li>
+                <li class="form-scroll__menu-item">
+                    <a class="form-scroll__menu-link" href="#">о фестивале</a>
+                </li>
+            </ul>
+            <div class="form-scroll__container-donate">
+                <img class="form-scroll__img" src="./img/header/nochkejka.svg" alt="Ночлежка">
+                <p class="form-scroll__text">благотварительная организация</p>
+            </div>
+            <button class="form-scroll__button button button_primary">пожертвовать</button>
+        </fieldset>
+    </form>
+
     <header class="header">
-      
+        <div class="header__wrapper">
+            <a class="header__logo-link" href="#">
+                <img class="header__logo" src="img/header/logo__header.svg" alt="Логотип">
+            </a>
+            <div class="header__wrapper">
+                <p class="header__location">Санкт-Петербург</p>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">куда пойти</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">стать участником</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">о фестивале</a>
+                        </li>
+                    </ul>
+                </nav>
+                <p class="header__event">хочу пойти</p>
+            </div>
+            <button class="header__burger menu_off"><img src="./img/header/icon_burger.svg" alt=""></button>
+            <button class="header__button button button_primary">поддержать</button>
+        </div>
     </header>
-    <main class="contetnt">
+
+    <main class="content">
+
+        <section class="promo">
+            <img class="promo__logo" src="img/header/promo__logo.svg" alt="Главный логотип">
+            <p class="promo__follow-up">узнать больше</p>
+            <button class="promo__button"></button>
+        </section>
+
+        <section class="about">
+            <h1 class="about__title">просто приятно помогать</h1>
+            <div class="about__wrapper">
+                <p class="about__text">
+                    Пейте кофе в любимых заведениях, посещайте интересные мероприятия, устраивайте домашние посиделки с
+                    друзьями — и помогайте бездомным!
+                </p>
+                <p class="about__text">
+                    Целую неделю 26 апреля — 2 мая вся выручка будет перечислена в пользу бездомных.
+                </p>
+                <button class="button about__button ">узнать подробнее</button>
+            </div>
+        </section>
+
       <section class="events">
         <div class="container">
           <div class="events__wrapper">
@@ -221,6 +294,7 @@
             </ul>
         </section>
     </main>
+
     <footer class="footer">
         <img class="footer__logo" src="img/footer/footer-illustration.svg" alt="Ночлежка">
         <ul class="page__list footer__organizer">
@@ -258,6 +332,7 @@
         </ul>
 
     </footer>
-    <script src="scripts/index.js"></script>
+    <script src="./scripts/index.js"></script>
 </body>
+
 </html>
