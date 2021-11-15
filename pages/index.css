@@ -3,7 +3,6 @@
 @import "../vendor/fonts/fonts.css";
 @import "../blocks/page/page.css";
 /*--- HEADER ---*/
-@import "../blocks/";
 @import "../blocks/header/header.css";
 @import "../blocks/header/__wrapper/header__wrapper.css";
 @import "../blocks/header/__logo/header__logo.css";
@@ -68,12 +67,6 @@
 @import "../blocks/card/__address/card__address.css";
 @import "../blocks/card/__links/card__links.css";
 @import "../blocks/card/__img/card__img.css";
-@import "../blocks/page/page.css";
-
-
-
-
-
 
 /*Numbers*/
 @import "../blocks/numbers/numbers.css";

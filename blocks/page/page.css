@@ -8,8 +8,6 @@
     min-width: 360px;
     color: var(--dark-primary);
     background-color: var(--light-secondary);
-    max-width: 1440px;
-    margin: 0 auto;
 }
 
 .page__list{
