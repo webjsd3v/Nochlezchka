@@ -1,16 +1,29 @@
 @import "../vendor/normalize.css";
 @import "../blocks/root/root.css";
 @import "../vendor/fonts/fonts.css";
+/*Numbers*/
+@import "../blocks/numbers/numbers.css";
+@import "../blocks/numbers/__wrapper/numbers__wrapper.css";
+@import "../blocks/numbers/__title/numbers__title.css";
+@import "../blocks/numbers/__illustration-left/numbers__illustration-left.css";
+@import "../blocks/numbers/__container-left/numders__container-left.css";
+@import "../blocks/numbers/__container-right/numders__container-right.css";
+@import "../blocks/numbers/__number/numders__number.css";
+@import "../blocks/numbers/__info/numders__info.css";
+@import "../blocks/numbers/__illustration-rigth/numbers__illustration-rigth.css";
+@import "../blocks/numbers/__illustration-center/numbers__illustration-center.css";
+@import "../blocks/numbers/__illustration-down/numbers__illustration-down.css";
+@import "../blocks/numbers/__illustration-up/numbers__illustration-up.css";
+/*info*/
+@import "../blocks/info/info.css";
+@import "../blocks/info/__container/info__container.css";
+@import "../blocks/info/__title/info__title.css";
+@import "../blocks/info/__paragraphs/info__paragraphs.css";
+@import "../blocks/info/__paragraph/info__paragraph.css";
+@import "../blocks/info/__button/info__button.css";
+
 @import "../blocks/page/page.css";
 
-
-
-
-
-
-
-
-/* photo-gallery */
 @import "../blocks/photo-gallery/photo-gallery.css";
 @import "../blocks/photo-gallery/__list/photo-gallery__list.css";
 @import "../blocks/photo-gallery/__one-item/photo-gallery__one-item.css";
