@@ -1,0 +1,12 @@
+.form-donate__section-sum{
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 12px;
+    margin: 0;
+  }
+  
+  @media all and (max-width: 767px) {
+    .form-donate__section-sum {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  } 
