@@ -1,0 +1,17 @@
+.form-donate__close{
+    width: 24px;
+    height: 24px;
+    transition: opacity .3s ease;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-color: unset;
+    background-image: url(../../../img/header/close.png);
+  }
+  
+  .form-donate__close:hover{
+    cursor: pointer;
+    opacity: 0.6;
+  }
