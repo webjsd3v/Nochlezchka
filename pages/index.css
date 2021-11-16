@@ -2,68 +2,10 @@
 @import "../blocks/root/root.css";
 @import "../vendor/fonts/fonts.css";
 @import "../blocks/page/page.css";
-/*--- HEADER ---*/
-@import "../blocks/header/header.css";
-@import "../blocks/header/__wrapper/header__wrapper.css";
-@import "../blocks/header/__logo/header__logo.css";
-@import "../blocks/header/__location/header__location.css";
-@import "../blocks/header/__event/header__event.css";
-@import "../blocks/header/__burger/header__burger.css";
-@import "../blocks/header/__location-button/header__location-button.css";
-  /*--- MENU ---*/
-@import "../blocks/menu/menu.css";
-@import "../blocks/menu/_off/menu_off.css";
-@import "../blocks/menu/__list/menu__list.css";
-@import "../blocks/menu/__item/menu__item.css";
-@import "../blocks/menu/__link/menu__link.css";
-  /*--- BUTTON ---*/
-@import "../blocks/button/button.css";
-@import "../blocks/button/_primary/button_primary.css";
-  /*--- PROMO ---*/
-@import "../blocks/promo/promo.css";
-@import "../blocks/promo/__logo/promo__logo.css";
-@import "../blocks/promo/__follow-up/promo__follow-up.css";
-@import "../blocks/promo/__button/promo__button.css";
-  /*--- KEYFRAMES ---*/
-@import "../blocks/keyframes/keyframes.css";
-  /*--- ABOUT ---*/
-@import "../blocks/about/about.css";
-@import "../blocks/about/__title/about__title.css";
-@import "../blocks/about/__wrapper/about__wrapper.css";
-@import "../blocks/about/__text/about__text.css";
-@import "../blocks/about/__button/about__button.css";
-  /*  FORM  */
-@import "../blocks/form-scroll/__container/form-scroll__container.css";
-@import "../blocks/form-scroll/__text/form-scroll__text.css";
-@import "../blocks/form-scroll/__navigation/form-scroll__navigation.css";
-@import "../blocks/form-scroll/__menu/form-scroll__menu.css";
-@import "../blocks/form-scroll/__menu-item/form-scroll__menu-item.css";
-@import "../blocks/form-scroll/__menu-link/form-scroll__menu-link.css";
-@import "../blocks/form-scroll/__container-donate/form-scroll__container-donate.css";
-@import "../blocks/form-scroll/__this-sity/form-scroll__this-sity.css";
-@import "../blocks/form-scroll/__img/form-scroll__img.css";
-@import "../blocks/form-scroll/__str/form-scroll__str.css";
-@import "../blocks/form-scroll/__back/form-scroll__back.css";
-/*  FORM DONATE  */
-@import "../blocks/form-donate/__container/form-donate__container.css";
-@import "../blocks/form-donate/__close/form-donate__close.css";
-@import "../blocks/form-donate/__email/form-donate__email.css";
-@import "../blocks/form-donate/__link/form-donate__link.css";
-@import "../blocks/form-donate/__section-sum/form-donate__section-sum.css";
-@import "../blocks/form-donate/__title/form-donate__title.css";
-@import "../blocks/form-donate/__subtitle/form-donate__subtitle.css";
-@import "../blocks/form-donate/__section-title/form-donate__section-title.css";
-@import "../blocks/form-donate/form-donate.css";
-@import "../blocks/form-donate/_opened/form-donate_opened.css";
-@import "../blocks/form-donate/__text/form-donate__text.css";
-@import "../blocks/form-donate/__section-radio/form-donate__section-radio.css";
-@import "../blocks/form-donate/__swipe/form-donate__swipe.css";
-/*  INPUT  */
-@import "../blocks/input/input.css";
-
-
 @import "../blocks/container/container.css";
 @import "../blocks/title/title.css";
+@import "../blocks/button/button.css";
+@import "../blocks/button/_primary/button_primary.css";
 @import "../blocks/events/events.css";
 @import "../blocks/events/__wrapper/events__wrapper.css";
 @import "../blocks/events/__button/events__button.css";
@@ -85,42 +27,31 @@
 @import "../blocks/card/__address/card__address.css";
 @import "../blocks/card/__links/card__links.css";
 @import "../blocks/card/__img/card__img.css";
-/*Numbers*/
-@import "../blocks/numbers/numbers.css";
-@import "../blocks/numbers/__wrapper/numbers__wrapper.css";
-@import "../blocks/numbers/__title/numbers__title.css";
-@import "../blocks/numbers/__illustration-left/numbers__illustration-left.css";
-@import "../blocks/numbers/__container-left/numders__container-left.css";
-@import "../blocks/numbers/__container-right/numders__container-right.css";
-@import "../blocks/numbers/__number/numders__number.css";
-@import "../blocks/numbers/__info/numders__info.css";
-@import "../blocks/numbers/__illustration-rigth/numbers__illustration-rigth.css";
-@import "../blocks/numbers/__illustration-center/numbers__illustration-center.css";
-@import "../blocks/numbers/__illustration-down/numbers__illustration-down.css";
-@import "../blocks/numbers/__illustration-up/numbers__illustration-up.css";
-/*info*/
-@import "../blocks/info/info.css";
-@import "../blocks/info/__container/info__container.css";
-@import "../blocks/info/__title/info__title.css";
-@import "../blocks/info/__paragraphs/info__paragraphs.css";
-@import "../blocks/info/__paragraph/info__paragraph.css";
-@import "../blocks/info/__button/info__button.css";
+
+
+
+
+
+
+
+
 /* photo-gallery */
 @import "../blocks/photo-gallery/photo-gallery.css";
 @import "../blocks/photo-gallery/__list/photo-gallery__list.css";
-@import "../blocks/photo-gallery/__img/photo-gallery__img.css";
 @import "../blocks/photo-gallery/__one-item/photo-gallery__one-item.css";
 @import "../blocks/photo-gallery/__two-item/photo-gallery__two-item.css";
 @import "../blocks/photo-gallery/__three-item/photo-gallery__three-item.css";
 @import "../blocks/photo-gallery/__four-item/photo-gallery__four-item.css";
 @import "../blocks/photo-gallery/__five-item/photo-gallery__five-item.css";
+
 /* in-team */
 @import "../blocks/in-team/in-team.css";
 @import "../blocks/in-team/__list/in-team__list.css";
 @import "../blocks/in-team/__list-item/in-team__list-item.css";
+
+
 /* footer */
 @import "../blocks/footer/footer.css";
-@import "../blocks//footer/__container/footer__container.css";
 @import "../blocks/footer/__title/footer__title.css";
 @import "../blocks/footer/__mail/footer__mail.css";
 @import "../blocks/footer/__logo/footer__logo.css";
@@ -128,5 +59,5 @@
 @import "../blocks/footer/__made-with-love/footer__made-with-love.css";
 @import "../blocks/footer/__social/footer__social.css";
 @import "../blocks/footer/__social-link/footer__social-link.css";
-@import "../blocks/footer/__social-image/footer__social-image.css";
 @import "../blocks/footer/__link/footer__link.css";
+
