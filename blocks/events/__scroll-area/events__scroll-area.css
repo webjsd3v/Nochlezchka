@@ -4,7 +4,6 @@
   margin: 40px 0 0 0;
   padding: 0 0 24px 0;
   overflow-x: auto;
-  overflow-y: none;
   min-width: 360px;
   max-width: 1440px;
 }
@@ -32,3 +31,4 @@
     overflow-y: none;
   }
 }
+
