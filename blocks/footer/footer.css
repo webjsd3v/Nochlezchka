@@ -1,8 +1,7 @@
 .footer{
     padding: 80px 40px 75px;
     background-color: rgba(235, 233, 237, 1);
-    display: flex;
-    justify-content: space-between;
+
 }
 
 @media screen and (max-width: 769px) {

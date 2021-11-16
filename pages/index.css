@@ -107,8 +107,6 @@
 @import "../blocks/info/__paragraph/info__paragraph.css";
 @import "../blocks/info/__button/info__button.css";
 
-@import "../blocks/page/page.css";
-
 @import "../blocks/photo-gallery/photo-gallery.css";
 @import "../blocks/photo-gallery/__list/photo-gallery__list.css";
 @import "../blocks/photo-gallery/__one-item/photo-gallery__one-item.css";
