@@ -1,0 +1,10 @@
+.photo-gallery {
+  padding: 80px 40px;
+  background-color: rgba(252, 250, 247, 1);
+}
+
+@media screen and (max-width: 769px) {
+  .photo-gallery {
+    padding: 40px 0;
+  }
+}
