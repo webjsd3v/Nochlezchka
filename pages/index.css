@@ -9,6 +9,7 @@
 @import "../blocks/header/__location/header__location.css";
 @import "../blocks/header/__event/header__event.css";
 @import "../blocks/header/__burger/header__burger.css";
+@import "../blocks/header/__location-button/header__location-button.css";
   /*--- MENU ---*/
 @import "../blocks/menu/menu.css";
 @import "../blocks/menu/_off/menu_off.css";
@@ -41,6 +42,25 @@
 @import "../blocks/form-scroll/__container-donate/form-scroll__container-donate.css";
 @import "../blocks/form-scroll/__this-sity/form-scroll__this-sity.css";
 @import "../blocks/form-scroll/__img/form-scroll__img.css";
+@import "../blocks/form-scroll/__str/form-scroll__str.css";
+@import "../blocks/form-scroll/__back/form-scroll__back.css";
+/*  FORM DONATE  */
+@import "../blocks/form-donate/__container/form-donate__container.css";
+@import "../blocks/form-donate/__close/form-donate__close.css";
+@import "../blocks/form-donate/__email/form-donate__email.css";
+@import "../blocks/form-donate/__link/form-donate__link.css";
+@import "../blocks/form-donate/__section-sum/form-donate__section-sum.css";
+@import "../blocks/form-donate/__title/form-donate__title.css";
+@import "../blocks/form-donate/__subtitle/form-donate__subtitle.css";
+@import "../blocks/form-donate/__section-title/form-donate__section-title.css";
+@import "../blocks/form-donate/form-donate.css";
+@import "../blocks/form-donate/_opened/form-donate_opened.css";
+@import "../blocks/form-donate/__text/form-donate__text.css";
+@import "../blocks/form-donate/__section-radio/form-donate__section-radio.css";
+@import "../blocks/form-donate/__swipe/form-donate__swipe.css";
+/*  INPUT  */
+@import "../blocks/input/input.css";
+
 
 @import "../blocks/container/container.css";
 @import "../blocks/title/title.css";
