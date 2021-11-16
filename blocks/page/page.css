@@ -1,11 +1,36 @@
 .page {
-    font-family: 'TT Firs Neue', Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    box-sizing: border-box;
-    max-width: 100%;
-    min-width: 320px;
-    margin: 0 auto;
-    color: #3b3748;
-    background-color: #fcfaf7;
-  }
+  font-family: 'TT Firs Neue', Arial, sans-serif;;
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 400;
+  width: 100%;
+  min-width: 320px;
+  color: var(--dark-primary);
+  background-color: var(--white);
+}
+
+.page__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page__link {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: .3s;
+}
+
+.page__link:hover {
+  opacity: 0.6;
+}
+
+.page_title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: -0.01em;
+  text-transform: lowercase;
+
+}

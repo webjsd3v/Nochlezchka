@@ -1,0 +1,13 @@
+.info__container {
+  margin: 0 auto;
+  max-width: 880px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .info__container {
+    justify-content: center;
+    flex-flow: wrap;
+  }
+}

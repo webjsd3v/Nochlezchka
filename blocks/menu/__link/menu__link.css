@@ -1,5 +1,4 @@
 .menu__link {
     text-decoration: none;
-    color: #3b3748;
-    height: 100%;
+    color: var(--dark-primary);
   }

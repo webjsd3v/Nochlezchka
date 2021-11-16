@@ -1,0 +1,14 @@
+.info {
+  display: flex;
+  padding: 80px 0;
+  background: var(--color-accident);
+  flex-flow: row wrap;
+}
+
+@media (max-width: 768px) {
+  .info {
+    padding: 40px 0;
+    background: var(--warning-error);
+    color: var(--white);
+  }
+}

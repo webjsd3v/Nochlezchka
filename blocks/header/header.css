@@ -1,6 +1,6 @@
 .header {
-    background-color: #ffd400;
-    width: 100%;
-    padding: 20px 0;
-    margin: auto;
-  }
+  background-color:var(--color-accident);
+  width: 100%;
+  padding: 20px 0;
+  margin: auto;
+}
