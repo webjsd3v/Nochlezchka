@@ -30,11 +30,16 @@
 @media screen and (max-width: 769px) {
     .footer__link {
         position: relative;
+        margin: 0 0 4px 0;
+        padding: 10px 0;
     }
 
     .footer__link::after{
         position: absolute;
         right: 0;
-        /* padding-left: auto; */
+        padding-left: 0;
+        width: 20px;
+        height: 19px;
+
     }
 }

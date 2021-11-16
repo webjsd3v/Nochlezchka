@@ -5,6 +5,7 @@
 
 @media screen and (max-width: 769px) {
     .footer__made-with-love {
-        margin-bottom: 60px;
+        margin-bottom: 44px;
+        padding-left: 0;
     }
 }

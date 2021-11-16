@@ -5,6 +5,7 @@
 
 @media screen and (max-width: 769px) {
     .footer__organizer {
-        margin-bottom: 60px;
+        margin-bottom: 47px;
+        padding-left: 0;
     }
 }
