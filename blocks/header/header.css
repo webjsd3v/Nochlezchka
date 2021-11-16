@@ -1,0 +1,6 @@
+.header {
+  background-color:var(--color-accident);
+  width: 100%;
+  padding: 20px 0;
+  margin: auto;
+}

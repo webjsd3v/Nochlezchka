@@ -1,0 +1,13 @@
+.numders__container-left {
+  position: absolute;
+  order: 2;
+  top: calc(480px - 148px);
+  left: 240px;
+}
+
+@media screen and (max-width: 1200px) {
+  .numders__container-left {
+    left: unset;
+    text-align: center;
+  }
+}
