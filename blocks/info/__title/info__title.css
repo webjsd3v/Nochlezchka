@@ -1,0 +1,20 @@
+.info__title {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 52px;
+}
+
+@media screen and (max-width: 1200px) {
+  .info__title {
+    margin: 0 0 12px;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 36px;
+    align-items: center;
+    max-width: 320px;
+    justify-content: flex-start;
+  }
+}

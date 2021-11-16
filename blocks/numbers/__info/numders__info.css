@@ -1,0 +1,18 @@
+.numders__info {
+    font-family: 'TT Firs Neue', Arial, sans-serif;
+    margin: 8px 0 0;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--dark-primary);
+    max-width: 303px;
+}
+
+@media screen and (max-width: 1200px) {
+    .numders__info {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+}

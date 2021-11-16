@@ -1,0 +1,9 @@
+.form-scroll__container-donate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 280px;
+    margin-bottom: 40px;
+  }

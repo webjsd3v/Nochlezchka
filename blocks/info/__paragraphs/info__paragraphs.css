@@ -1,0 +1,17 @@
+.info__paragraphs {
+  max-width: 420px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .info__paragraphs {
+    max-width: 320px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
