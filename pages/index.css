@@ -64,8 +64,6 @@
 
 @import "../blocks/container/container.css";
 @import "../blocks/title/title.css";
-@import "../blocks/button/button.css";
-@import "../blocks/button/_primary/button_primary.css";
 @import "../blocks/events/events.css";
 @import "../blocks/events/__wrapper/events__wrapper.css";
 @import "../blocks/events/__button/events__button.css";

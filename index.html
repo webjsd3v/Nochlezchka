@@ -10,86 +10,6 @@
     <link rel="stylesheet" href="pages/index.css">
 </head>
 <body class="page">
-<form autocomplete="off" name="donate" class="form-donate">
-    <fieldset class="form-donate__container">
-        <div class="form-donate__swipe"></div>
-        <div class="form-donate__section-title">
-            <h2 class="form-donate__title">пожертвовать</h2>
-            <button class="form-donate__close" type="button"></button>
-        </div>
-        <h3 class="form-donate__subtitle">сумма</h3>
-        <div class="form-donate__section-sum">
-            <button class="button button_primary">100 ₽</button>
-            <button class="button">300 ₽</button>
-            <button class="button">500 ₽</button>
-            <button class="button">1000 ₽</button>
-            <button class="button">3000 ₽</button>
-            <button class="button">другая сумма</button>
-        </div>
-
-        <h3 class="form-donate__subtitle">email</h3>
-
-        <input type="email" class="form-donate__email" id="title" name="title"
-               placeholder="укажите почту для отправки чека">
-
-        <h3 class="form-donate__subtitle">способ оплаты</h3>
-        <label for="" class="form-donate__section-radio">
-            <input type="radio" name="radioCheck" class="" checked="">
-            <span class="form-donate__text">банковской картой</span>
-        </label>
-
-        <label for="" class="form-donate__section-radio">
-            <input type="radio" name="radioCheck" class="">
-            <span class="form-donate__text">PayPal</span>
-        </label>
-
-        <p>Нажимая кнопку «пожертвовать» вы&nbsp;соглашаетесь с&nbsp;условиями <a class="form-donate__link" href="#">оферты,
-            политики</a> в&nbsp;отношении обработки и&nbsp;защиты
-            персональных данных и&nbsp;даёте <a class="form-donate__link" href="#">согласие</a> на&nbsp;их&nbsp;обработку
-        </p>
-        <button class="button button_primary">перейти к оплате</button>
-    </fieldset>
-</form>
-
-<form autocomplete="off" name="scroll" class="form-scroll menu_off">
-    <fieldset class="form-scroll__container">
-        <p class="form-scroll__text">ваш город:</p>
-        <div class="form-scroll__section-sity">
-            <p class="form-scroll__this-sity">Санкт-Петербург</p>
-            <button class="form-scroll__str" onclick="return false;"></button>
-        </div>
-        <p class="form-scroll__navigation form-scroll__text">навигация</p>
-        <ul class="form-scroll__menu">
-            <li class="form-scroll__menu-item">
-                <a class="form-scroll__menu-link" href="#">куда пойти</a>
-            </li>
-            <li class="form-scroll__menu-item">
-                <a class="form-scroll__menu-link" href="#">стать участником</a>
-            </li>
-            <li class="form-scroll__menu-item">
-                <a class="form-scroll__menu-link" href="#">о фестивале</a>
-            </li>
-        </ul>
-        <div class="form-scroll__container-donate">
-            <img class="form-scroll__img" src="./img/header/nochkejka.svg" alt="Ночлежка">
-            <p class="form-scroll__text">благотварительная организация</p>
-        </div>
-        <button class="form-scroll__button button button_primary" onclick="return false;">пожертвовать</button>
-    </fieldset>
-</form>
-
-<form autocomplete="off" name="scroll" class="form-scroll form-scroll_sity menu_off">
-    <fieldset class="form-scroll__container">
-        <button class="form-scroll__back" onclick="return false;">← назад</button>
-        <p class="form-scroll__text">ваш город:</p>
-        <p class="form-scroll__this-sity form-scroll__this-sity_lil-margin">Москва</p>
-        <p class="form-scroll__this-sity form-scroll__this-sity_lil-margin">Санкт-Петербург</p>
-        <p class="form-scroll__this-sity form-scroll__this-sity_lil-margin">Сочи</p>
-        <p class="form-scroll__this-sity form-scroll__this-sity_lil-margin">Калуга</p>
-        <p class="form-scroll__this-sity form-scroll__this-sity_lil-margin">Екатеринбург</p>
-    </fieldset>
-</form>
-
 <header class="header">
     <div class="header__wrapper">
         <a class="header__logo-link" href="#">
@@ -380,6 +300,86 @@
         </li>
     </ul>
 </footer>
+<form autocomplete="off" name="donate" class="form-donate">
+    <fieldset class="form-donate__container">
+        <div class="form-donate__swipe"></div>
+        <div class="form-donate__section-title">
+            <h2 class="form-donate__title">пожертвовать</h2>
+            <button class="form-donate__close" type="button"></button>
+        </div>
+        <h3 class="form-donate__subtitle">сумма</h3>
+        <div class="form-donate__section-sum">
+            <button class="button button_primary">100 ₽</button>
+            <button class="button">300 ₽</button>
+            <button class="button">500 ₽</button>
+            <button class="button">1000 ₽</button>
+            <button class="button">3000 ₽</button>
+            <button class="button">другая сумма</button>
+        </div>
+
+        <h3 class="form-donate__subtitle">email</h3>
+
+        <input type="email" class="form-donate__email" id="title" name="title"
+               placeholder="укажите почту для отправки чека">
+
+        <h3 class="form-donate__subtitle">способ оплаты</h3>
+        <label  class="form-donate__section-radio">
+            <input type="radio" name="radioCheck" class="" checked="">
+            <span class="form-donate__text">банковской картой</span>
+        </label>
+
+        <label  class="form-donate__section-radio">
+            <input type="radio" name="radioCheck" class="">
+            <span class="form-donate__text">PayPal</span>
+        </label>
+
+        <p>Нажимая кнопку «пожертвовать» вы&nbsp;соглашаетесь с&nbsp;условиями <a class="form-donate__link" href="#">оферты,
+            политики</a> в&nbsp;отношении обработки и&nbsp;защиты
+            персональных данных и&nbsp;даёте <a class="form-donate__link" href="#">согласие</a> на&nbsp;их&nbsp;обработку
+        </p>
+        <button class="button button_primary">перейти к оплате</button>
+    </fieldset>
+</form>
+
+<form autocomplete="off" name="scroll" class="form-scroll menu_off">
+    <fieldset class="form-scroll__container">
+        <p class="form-scroll__text">ваш город:</p>
+        <div class="form-scroll__section-sity">
+            <p class="form-scroll__this-sity">Санкт-Петербург</p>
+            <button class="form-scroll__str" onclick="return false;"></button>
+        </div>
+        <p class="form-scroll__navigation form-scroll__text">навигация</p>
+        <ul class="form-scroll__menu">
+            <li class="form-scroll__menu-item">
+                <a class="form-scroll__menu-link" href="#">куда пойти</a>
+            </li>
+            <li class="form-scroll__menu-item">
+                <a class="form-scroll__menu-link" href="#">стать участником</a>
+            </li>
+            <li class="form-scroll__menu-item">
+                <a class="form-scroll__menu-link" href="#">о фестивале</a>
+            </li>
+        </ul>
+        <div class="form-scroll__container-donate">
+            <img class="form-scroll__img" src="./img/header/nochkejka.svg" alt="Ночлежка">
+            <p class="form-scroll__text">благотварительная организация</p>
+        </div>
+        <button class="form-scroll__button button button_primary" onclick="return false;">пожертвовать</button>
+    </fieldset>
+</form>
+
+<form autocomplete="off" name="scroll" class="form-scroll form-scroll_sity menu_off">
+    <fieldset class="form-scroll__container">
+        <button class="form-scroll__back" onclick="return false;">← назад</button>
+        <p class="form-scroll__text">ваш город:</p>
+        <p class="form-scroll__this-sity form-scroll__this-sity_lil-margin">Москва</p>
+        <p class="form-scroll__this-sity form-scroll__this-sity_lil-margin">Санкт-Петербург</p>
+        <p class="form-scroll__this-sity form-scroll__this-sity_lil-margin">Сочи</p>
+        <p class="form-scroll__this-sity form-scroll__this-sity_lil-margin">Калуга</p>
+        <p class="form-scroll__this-sity form-scroll__this-sity_lil-margin">Екатеринбург</p>
+    </fieldset>
+</form>
+
 <script src="./scripts/index.js"></script>
 </body>
 </html>
