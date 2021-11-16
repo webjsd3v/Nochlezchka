@@ -1,0 +1,25 @@
+.header__location {
+  margin: 0 0 0 64px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+
+.header__location:hover {
+  transform: scale(1.05);
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+
+}
+
+.header__location::before {
+  content: '';
+  background-image: url('../../../img/header/location.svg');
+  background-size: cover;
+  position: absolute;
+  left: -32px;
+  width: 22px;
+  height: 24px;
+}

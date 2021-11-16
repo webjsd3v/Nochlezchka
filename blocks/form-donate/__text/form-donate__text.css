@@ -1,0 +1,13 @@
+.form-donate__text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 5px;
+  }
+  
+  @media all and (max-width: 767px) {
+    .form-donate__text{
+      font-size: 16px;
+      line-height: 20px;
+    }
+  } 
