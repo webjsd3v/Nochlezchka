@@ -1,0 +1,13 @@
+.numbers__wrapper {
+  min-height: 720px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+  .numbers__wrapper {
+    flex-flow: column wrap;
+  }
+}

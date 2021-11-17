@@ -1,0 +1,10 @@
+.form-scroll__menu-item {
+    margin: 0;
+    transition: all 0.15s linear;
+    margin-bottom: 24px;
+  }
+  
+  .form-scroll__menu-item:hover {
+    transform: scale(1.1);
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  }

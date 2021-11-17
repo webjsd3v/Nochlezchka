@@ -1,0 +1,13 @@
+.photo-gallery__five-item {
+  grid-area: midRight;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1025px) {
+  .photo-gallery__five-item {
+    grid-area: midLeft;
+    /* display: block; */
+  }
+}

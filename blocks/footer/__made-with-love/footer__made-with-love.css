@@ -1,0 +1,13 @@
+.footer__made-with-love {
+  flex-basis: 35%;
+  /* padding-left: 40px; */
+}
+
+@media screen and (max-width: 769px) {
+
+  .footer__made-with-love {
+    margin-bottom: 44px;
+    /* padding-left: 0; */
+  }
+}
+/* >>>>>>> 7432796050c1570626e2dae237252b65cbe368f2 */
