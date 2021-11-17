@@ -4,7 +4,7 @@
   padding: 80px 0 92px 0;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px){
   .events {
     padding: 40px 0;
   }
