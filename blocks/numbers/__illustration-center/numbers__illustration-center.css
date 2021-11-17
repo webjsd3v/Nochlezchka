@@ -1,0 +1,16 @@
+.numbers__illustration-center {
+  position: relative;
+  top: -110px;
+  right: 181px;
+  height: 591px;
+  width: 259px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1325px) {
+  .numbers__illustration-center {
+    display: none;
+  }
+}
