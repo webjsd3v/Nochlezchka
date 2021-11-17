@@ -1,0 +1,10 @@
+.numders__container-right {
+  position: absolute;
+  top: calc(480px - 148px);
+}
+
+@media screen and (max-width: 1200px) {
+  .numders__container-right {
+    text-align: center;
+  }
+}
