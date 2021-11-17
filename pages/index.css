@@ -85,6 +85,7 @@
 @import "../blocks/card/__address/card__address.css";
 @import "../blocks/card/__links/card__links.css";
 @import "../blocks/card/__img/card__img.css";
+
 /*Numbers*/
 @import "../blocks/numbers/numbers.css";
 @import "../blocks/numbers/__wrapper/numbers__wrapper.css";
@@ -120,7 +121,7 @@
 @import "../blocks/in-team/__list-item/in-team__list-item.css";
 /* footer */
 @import "../blocks/footer/footer.css";
-@import "../blocks//footer/__container/footer__container.css";
+@import "../blocks/footer/__container/footer__container.css";
 @import "../blocks/footer/__title/footer__title.css";
 @import "../blocks/footer/__mail/footer__mail.css";
 @import "../blocks/footer/__logo/footer__logo.css";
