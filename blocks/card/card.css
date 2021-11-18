@@ -14,8 +14,15 @@
   margin: 0;
 }
 
+
 @media screen and (max-width: 700px){
   .card {
     height: 398px;
+  }
+  .card:first-child {
+    margin: 0 20px 0 20px;
+  }
+  .card:last-child {
+    margin: 0 20px 0 20px;
   }
 }
