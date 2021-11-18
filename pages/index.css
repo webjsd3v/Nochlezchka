@@ -12,18 +12,19 @@
 @import "../blocks/header/__location-button/header__location-button.css";
   /*--- MENU ---*/
 @import "../blocks/menu/menu.css";
-@import "../blocks/menu/_off/menu_off.css";
 @import "../blocks/menu/__list/menu__list.css";
 @import "../blocks/menu/__item/menu__item.css";
 @import "../blocks/menu/__link/menu__link.css";
   /*--- BUTTON ---*/
 @import "../blocks/button/button.css";
 @import "../blocks/button/_primary/button_primary.css";
+@import "../blocks/button/_head/button_head.css";
   /*--- PROMO ---*/
 @import "../blocks/promo/promo.css";
 @import "../blocks/promo/__logo/promo__logo.css";
 @import "../blocks/promo/__follow-up/promo__follow-up.css";
 @import "../blocks/promo/__button/promo__button.css";
+@import "../blocks/promo/__section-more/promo__section-more.css";
   /*--- KEYFRAMES ---*/
 @import "../blocks/keyframes/keyframes.css";
   /*--- ABOUT ---*/
@@ -40,10 +41,12 @@
 @import "../blocks/form-scroll/__menu-item/form-scroll__menu-item.css";
 @import "../blocks/form-scroll/__menu-link/form-scroll__menu-link.css";
 @import "../blocks/form-scroll/__container-donate/form-scroll__container-donate.css";
+@import "../blocks/form-scroll/__section-sity/form-scroll__section-sity.css";
 @import "../blocks/form-scroll/__this-sity/form-scroll__this-sity.css";
 @import "../blocks/form-scroll/__img/form-scroll__img.css";
 @import "../blocks/form-scroll/__str/form-scroll__str.css";
 @import "../blocks/form-scroll/__back/form-scroll__back.css";
+@import "../blocks/form-scroll/__menu/_off/form-scroll__menu_off.css";
 /*  FORM DONATE  */
 @import "../blocks/form-donate/__container/form-donate__container.css";
 @import "../blocks/form-donate/__close/form-donate__close.css";
@@ -58,9 +61,10 @@
 @import "../blocks/form-donate/__text/form-donate__text.css";
 @import "../blocks/form-donate/__section-radio/form-donate__section-radio.css";
 @import "../blocks/form-donate/__swipe/form-donate__swipe.css";
-/*  INPUT  */
-@import "../blocks/input/input.css";
-
+@import "../blocks/form-donate/__check/form-donate__check.css";
+/*  POPUP  */
+@import "../blocks/popup/popup.css";
+@import "../blocks/popup/_opened/popup_opened.css";
 
 @import "../blocks/container/container.css";
 @import "../blocks/title/title.css";
@@ -131,3 +135,5 @@
 @import "../blocks/footer/__social-link/footer__social-link.css";
 @import "../blocks/footer/__social-image/footer__social-image.css";
 @import "../blocks/footer/__link/footer__link.css";
+
+

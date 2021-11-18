@@ -1,10 +1,10 @@
-input[type='radio'] {
+.form-donate_check[type='radio'] {
     position: relative;
     height: 18px;
     width: 18px;
   }
   
-  input[type='radio']::before {
+  .form-donate_check[type='radio']::before {
     content: '';
     position: absolute;
     top: 50%;
@@ -17,7 +17,7 @@ input[type='radio'] {
     border: 2px solid #7100FF;
   }
   
-  input[type='radio']:checked::after {
+  .form-donate_check[type='radio']:checked::after {
     content: '';
     position: absolute;
     top: 50%;

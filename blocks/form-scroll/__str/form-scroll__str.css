@@ -9,6 +9,7 @@
     background-size: cover;
     background-position: center;
     background-color: white;
+    font-size: 0;
   }
   
   .form-scroll__str:hover {
