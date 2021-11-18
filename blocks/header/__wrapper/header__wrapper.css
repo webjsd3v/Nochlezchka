@@ -3,14 +3,20 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 40px;
   margin: 0 auto;
   max-width: 1360px;
   box-sizing: border-box;
 }
 
-@media all and (max-width: 1023px) {
+@media all and (max-width: 1360px) {
+  .header__wrapper {
+    padding: 0 20px;
+  }
+}
+
+@media all and (max-width: 1120px) {
   .header__wrapper {
     justify-content: end;
+    align-items: center;
   }
 }

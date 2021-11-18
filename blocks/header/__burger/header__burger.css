@@ -3,6 +3,7 @@
   border: none;
   transition: all 0.15s linear;
   cursor: pointer;
+  padding: 0;
 }
 
 .header__burger:hover {
