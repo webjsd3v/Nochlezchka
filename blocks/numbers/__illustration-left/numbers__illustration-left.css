@@ -1,0 +1,16 @@
+.numbers__illustration-left {
+  position: relative;
+  width: 543px;
+  height: 480px;
+  background: url("../../../img/numbers/illustration-left.svg") no-repeat;
+}
+
+@media screen and (max-width: 1200px) {
+  .numbers__illustration-left {
+    max-height: 412px;
+    background: url("../../../img/numbers/illustration-left-m.svg") no-repeat;
+    width: 320px;
+    order: 2;
+    margin: 40px auto 0;
+  }
+}
