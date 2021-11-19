@@ -1,0 +1,16 @@
+.info__button {
+  background: var(--color-accident);
+  width: 201px;
+  height: 48px;
+  border: 2px solid var(--dark-primary);
+  box-sizing: border-box;
+  border-radius: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .info__button {
+    background: var(--warning-error);
+    color: var(--white);
+    border: 2px solid var(--white);
+  }
+}
