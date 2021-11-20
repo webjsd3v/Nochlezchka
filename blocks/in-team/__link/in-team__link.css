@@ -1,0 +1,14 @@
+.in-team__link {
+    display: block;
+    width: 100%;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+}
+.in-team__link:hover {
+    opacity: 0.6;
+}
+
+
+
+

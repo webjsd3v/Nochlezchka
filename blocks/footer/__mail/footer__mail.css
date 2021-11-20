@@ -10,8 +10,6 @@
     text-decoration: none;
 }
 
-/* >>>>>>> 7432796050c1570626e2dae237252b65cbe368f2 */
-
 @media screen and (max-width: 769px) {
     .footer__mail {
         margin: 0;
