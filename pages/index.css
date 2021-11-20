@@ -18,7 +18,6 @@
   /*--- BUTTON ---*/
 @import "../blocks/button/button.css";
 @import "../blocks/button/_color_accent/button_color_accent.css";
-@import "../blocks/button/_head/button_head.css";
   /*--- PROMO ---*/
 @import "../blocks/promo/promo.css";
 @import "../blocks/promo/__logo/promo__logo.css";
@@ -47,6 +46,7 @@
 @import "../blocks/form-scroll/__str/form-scroll__str.css";
 @import "../blocks/form-scroll/__back/form-scroll__back.css";
 @import "../blocks/form-scroll/__menu/_off/form-scroll__menu_off.css";
+@import "../blocks/form-scroll/__check-section/form-scroll__check-section.css";
 /*  FORM DONATE  */
 @import "../blocks/form-donate/__container/form-donate__container.css";
 @import "../blocks/form-donate/__close/form-donate__close.css";
@@ -94,7 +94,7 @@
 @import "../blocks/numbers/__wrapper/numbers__wrapper.css";
 @import "../blocks/numbers/__title/numbers__title.css";
 @import "../blocks/numbers/__illustration-left/numbers__illustration-left.css";
-@import "../blocks/numbers/__container-left/numders__container-left.css";
+@import "../blocks/numbers/__container-left/numbers__container-left.css";
 @import "../blocks/numbers/__container-right/numders__container-right.css";
 @import "../blocks/numbers/__number/numders__number.css";
 @import "../blocks/numbers/__info/numders__info.css";
@@ -111,23 +111,31 @@
 @import "../blocks/info/__button/info__button.css";
 /* photo-gallery */
 @import "../blocks/photo-gallery/photo-gallery.css";
+@import "../blocks/photo-gallery/__wrapper/photo-gallery__wrapper.css";
 @import "../blocks/photo-gallery/__list/photo-gallery__list.css";
 @import "../blocks/photo-gallery/__img/photo-gallery__img.css";
-@import "../blocks/photo-gallery/__one-item/photo-gallery__one-item.css";
-@import "../blocks/photo-gallery/__two-item/photo-gallery__two-item.css";
-@import "../blocks/photo-gallery/__three-item/photo-gallery__three-item.css";
-@import "../blocks/photo-gallery/__four-item/photo-gallery__four-item.css";
-@import "../blocks/photo-gallery/__five-item/photo-gallery__five-item.css";
+@import "../blocks/photo-gallery/__first-item/photo-gallery__first-item.css";
+@import "../blocks/photo-gallery/__second-item/photo-gallery__second-item.css";
+@import "../blocks/photo-gallery/__third-item/photo-gallery__third-item.css";
+@import "../blocks/photo-gallery/__fourth-item/photo-gallery__fourth-item.css";
+@import "../blocks/photo-gallery/__fifth-item/photo-gallery__fifth-item.css";
+@import "../blocks/photo-gallery/__mobile/photo-gallery__mobile.css";
+/* swiper */
+@import "../blocks/swiper/swiper-pagination-bullet.css";
+@import "../blocks/swiper/swiper-pagination-bullet-active.css";
 /* in-team */
 @import "../blocks/in-team/in-team.css";
+@import "../blocks/in-team/__wrapper/in-team__wrapper.css";
 @import "../blocks/in-team/__list/in-team__list.css";
 @import "../blocks/in-team/__list-item/in-team__list-item.css";
+@import "../blocks/in-team/__link/in-team__link.css";
 /* footer */
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__container/footer__container.css";
 @import "../blocks/footer/__title/footer__title.css";
 @import "../blocks/footer/__mail/footer__mail.css";
 @import "../blocks/footer/__logo/footer__logo.css";
+@import "../blocks/footer/__nav/footer__nav.css";
 @import "../blocks/footer/__organizer/footer__organizer.css";
 @import "../blocks/footer/__made-with-love/footer__made-with-love.css";
 @import "../blocks/footer/__social/footer__social.css";
