@@ -17,8 +17,7 @@
 @import "../blocks/menu/__link/menu__link.css";
   /*--- BUTTON ---*/
 @import "../blocks/button/button.css";
-@import "../blocks/button/_primary/button_primary.css";
-@import "../blocks/button/_head/button_head.css";
+@import "../blocks/button/_color_accent/button_color_accent.css";
   /*--- PROMO ---*/
 @import "../blocks/promo/promo.css";
 @import "../blocks/promo/__logo/promo__logo.css";
@@ -47,6 +46,7 @@
 @import "../blocks/form-scroll/__str/form-scroll__str.css";
 @import "../blocks/form-scroll/__back/form-scroll__back.css";
 @import "../blocks/form-scroll/__menu/_off/form-scroll__menu_off.css";
+@import "../blocks/form-scroll/__check-section/form-scroll__check-section.css";
 /*  FORM DONATE  */
 @import "../blocks/form-donate/__container/form-donate__container.css";
 @import "../blocks/form-donate/__close/form-donate__close.css";
@@ -76,7 +76,6 @@
 @import "../blocks/events/__main-button/events__main-button.css";
 @import "../blocks/card/card.css";
 @import "../blocks/card/__btn/card__btn.css";
-@import "../blocks/card/__icon/card__icon.css";
 @import "../blocks/card/__link/card__link.css";
 @import "../blocks/card/__content/card__content.css";
 @import "../blocks/card/__wrapper/card__wrapper.css";
@@ -95,7 +94,7 @@
 @import "../blocks/numbers/__wrapper/numbers__wrapper.css";
 @import "../blocks/numbers/__title/numbers__title.css";
 @import "../blocks/numbers/__illustration-left/numbers__illustration-left.css";
-@import "../blocks/numbers/__container-left/numders__container-left.css";
+@import "../blocks/numbers/__container-left/numbers__container-left.css";
 @import "../blocks/numbers/__container-right/numders__container-right.css";
 @import "../blocks/numbers/__number/numders__number.css";
 @import "../blocks/numbers/__info/numders__info.css";

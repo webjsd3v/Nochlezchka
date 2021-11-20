@@ -1,5 +1,6 @@
 .events__main-button {
   margin-top: 32px;
+  display: inline-block;
 }
 
 @media screen and (max-width: 700px) {
