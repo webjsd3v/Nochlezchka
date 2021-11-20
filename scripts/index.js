@@ -86,3 +86,12 @@ document
       event.preventDefault();
     }
   });
+
+// слайдер на фото-галереи  
+const swiper = new Swiper(".photo-gallery__mobile", {
+    spaceBetween: 50,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+});

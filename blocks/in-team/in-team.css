@@ -1,11 +1,3 @@
 .in-team {
-  padding: 80px 40px;
   background-color: rgba(252, 250, 247, 1);
-}
-
-@media screen and (max-width: 769px) {
-  .in-team {
-    padding: 40px 0;
-    background-color: rgba(235, 233, 237, 1);
-  }
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ГедонизмФест</title>
     <link rel="icon" href="./img/html/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
@@ -231,76 +232,82 @@
         </section>
 
         <section class="section photo-gallery" aria-label="Фото галерея">
-            <div class="container">
+            <div class="photo-gallery__wrapper">
                 <h2 class="page__title">#hedonismfest</h2>
                 <p class="page__subtitle">Ставь хештег и попади в ленту на сайте</p>
                 <ul class="page__list photo-gallery__list">
-                    <li class="photo-gallery__one-item"><img class="photo-gallery__img"
-                            src="img/hedonismfest/Rectangle.jpg" alt=""></li>
-                    <li class="photo-gallery__two-item"><img class="photo-gallery__img"
-                            src="img/hedonismfest/Rectanglre.jpg" alt=""></li>
-                    <li class="photo-gallery__three-item"><img class="photo-gallery__img"
-                            src="img/hedonismfest/Rectange.jpg" alt=""></li>
-                    <li class="photo-gallery__four-item"><img class="photo-gallery__img"
-                            src="img/hedonismfest/Rectngle.jpg" alt=""></li>
-                    <li class="photo-gallery__five-item"><img class="photo-gallery__img"
-                            src="img/hedonismfest/Retangle.jpg" alt=""></li>
+                    <li class="photo-gallery__first-item"><img class="photo-gallery__img" src="img/hedonismfest/Rectangle.jpg" alt="Набережная Москва-реки"></li>
+                    <li class="photo-gallery__second-item"><img class="photo-gallery__img" src="img/hedonismfest/Rectanglre.jpg" alt="Наши люди на отдыхе"></li>
+                    <li class="photo-gallery__third-item"><img class="photo-gallery__img" src="img/hedonismfest/Rectange.jpg" alt="Выставка наших работ"></li>
+                    <li class="photo-gallery__fourth-item"><img class="photo-gallery__img" src="img/hedonismfest/Rectngle.jpg" alt="Прошлый фестиваль"></li>
+                    <li class="photo-gallery__fifth-item"><img class="photo-gallery__img" src="img/hedonismfest/Retangle.jpg" alt="Мы ждем и тебя"></li>
+                </ul>
+    
+                <div class="swiper photo-gallery__mobile swiper-h">
+                    <ul class=" page__list swiper-wrapper " id="photo-gallery-mobile">
+                        <li class="swiper-slide"><img class="photo-gallery__img" src="img/hedonismfest/Rectangle.jpg" alt="Набережная Москва-реки"></li>
+                        <li class="swiper-slide"><img class="photo-gallery__img" src="img/hedonismfest/Rectanglre.jpg" alt="Наши люди на отдыхе"></li>
+                        <li class="swiper-slide"><img class="photo-gallery__img" src="img/hedonismfest/Rectange.jpg" alt="Выставка наших работ"></li>
+                        <li class="swiper-slide"><img class="photo-gallery__img" src="img/hedonismfest/Rectngle.jpg" alt="Прошлый фестиваль"></li>
+                        <li class="swiper-slide"><img class="photo-gallery__img" src="img/hedonismfest/Retangle.jpg" alt="Мы ждем и тебя"></li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div> 
+        </section>
+
+        <section class="section in-team " aria-label="Кто уже в нашей команде">
+            <div class="in-team__wrapper">
+                <h2 class="page__title">уже в команде</h2>
+                <ul class="page__list in-team__list">
+                    <li class="in-team__list-item"><a href="#" class="in-team__link"><img src="img/footer/logofirst.png" alt="компания SERF"></a></li>
+                    <li class="in-team__list-item"><a href="#" class="in-team__link" ><img src="img/footer/logosecond.png" alt="ГАЛЕРЕЯ СПБ"></a></li>
+                    <li class="in-team__list-item"><a href="#" class="in-team__link" ><img src="img/footer/logothird.png" alt="Василеостровский рынок"></a></li>
+                    <li class="in-team__list-item"><a href="#" class="in-team__link" ><img src="img/footer/logofirst.png" alt="компания SERF"></a></li>
+                    <li class="in-team__list-item"><a href="#" class="in-team__link" ><img src="img/footer/logosecond.png" alt="ГАЛЕРЕЯ СПБ"></a></li>
+                    <li class="in-team__list-item"><a href="#" class="in-team__link" ><img src="img/footer/logothird.png" alt="Василеостровский рынок"></a></li>
+                    <li class="in-team__list-item"><a href="#" class="in-team__link" ><img src="img/footer/logofirst.png" alt="компания SERF"></a></li>
+                    <li class="in-team__list-item"><a href="#" class="in-team__link" ><img src="img/footer/logosecond.png" alt="ГАЛЕРЕЯ СПБ"></a></li>
+                    <li class="in-team__list-item"><a href="#" class="in-team__link" ><img src="img/footer/logothird.png" alt="Василеостровский рынок"></a></li>
                 </ul>
             </div>
         </section>
 
-        <section class="section in-team " aria-label="Кто уже в нашей команде">
-            <div class="container">
-                <h2 class="page__title">уже в команде</h2>
-                <ul class="page__list in-team__list">
-                    <li class="in-team__list-item"><img src="img/footer/logofirst.png" alt="компания SERF"></li>
-                    <li class="in-team__list-item"><img src="img/footer/logosecond.png" alt="ГАЛЕРЕЯ СПБ"></li>
-                    <li class="in-team__list-item"><img src="img/footer/logothird.png" alt="Василеостровский рынок">
-                    </li>
-                    <li class="in-team__list-item"><img src="img/footer/logofirst.png" alt="компания SERF"></li>
-                    <li class="in-team__list-item"><img src="img/footer/logosecond.png" alt="ГАЛЕРЕЯ СПБ"></li>
-                    <li class="in-team__list-item"><img src="img/footer/logothird.png" alt="Василеостровский рынок">
-                    </li>
-                    <li class="in-team__list-item"><img src="img/footer/logofirst.png" alt="компания SERF"></li>
-                    <li class="in-team__list-item"><img src="img/footer/logosecond.png" alt="ГАЛЕРЕЯ СПБ"></li>
-                    <li class="in-team__list-item"><img src="img/footer/logothird.png" alt="Василеостровский рынок">
-                    </li>
-                </ul>
-            </div>
-        </section>
     </main>
+
     <footer class="footer">
-        <div class="container footer__container">
+        <div class="footer__container">
             <img class="footer__logo" src="img/footer/footer-illustration.svg" alt="Ночлежка">
-            <nav class="footer__nav">
+            <nav class="footer__nav footer__organizer">
                 <h3 class="footer__title">организатор:</h3>
-                <ul class="page__list footer__organizer">
+                <ul class="page__list ">
                     <li>
-                        <a class="footer__link page__link" href="#">Ночлежка</a>
+                        <a class="footer__link page__link" href="https://homeless.ru/">Ночлежка</a>
                     </li>
                     <li>
                         <a class="footer__mail" href="mailto:info@hedonismfest.ru">info@hedonismfest.ru</a>
                     </li>
                 </ul>
             </nav>
-            <nav class="footer__nav">
+            <nav class="footer__nav footer__made-with-love">
                 <h3 class="footer__title">сделано с любовью:</h3>
-                <ul class="page__list footer__made-with-love">
+                <ul class="page__list ">
                     <li class="">
-                        <a class="footer__link page__link" href="#">Fastsol Digital</a>
+                        <a class="footer__link page__link" href="https://fastsol.digital/">Fastsol Digital</a>
                     </li>
                     <li class="">
-                        <a class="footer__link page__link" href="#">shishki.collective</a>
+                        <a class="footer__link page__link" href="https://shishki.co/">shishki.collective</a>
                     </li>
                     <li class="">
-                        <a class="footer__link page__link" href="#">студентами Яндекс.Практикума</a>
+                        <a class="footer__link page__link" href="https://practicum.yandex.ru/">студентами Яндекс.Практикума</a>
                     </li>
                 </ul>
             </nav>
-            <nav class="footer__nav">
-                <h3 class="footer__title">мы в соцсетях:</h3>
 
-                <ul class=" page__list footer__social">
+            <nav class="footer__nav footer__social">
+                <h3 class="footer__title">мы в соцсетях:</h3>
+                <ul class="page__list ">
+                               
                     <li class="">
                         <a class="footer__social-link" href="#"><img class="footer__social-image"
                                 src="img/footer/icons/facebook.svg" alt="facebook"></a>
@@ -397,7 +404,7 @@
         </fieldset>
     </form>
     <!-- >>>>>>> 7432796050c1570626e2dae237252b65cbe368f2 -->
-
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./scripts/index.js"></script>
 </body>
 

@@ -1,0 +1,6 @@
+.photo-gallery__fourth-item {
+  grid-area: botCenter1;
+  display: block;
+  width: 100%;
+  height: 100%;
+}

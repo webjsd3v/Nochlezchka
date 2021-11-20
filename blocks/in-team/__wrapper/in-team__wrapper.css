@@ -1,0 +1,26 @@
+.in-team__wrapper {
+  padding: 70px 0 74px;
+  margin: 0 auto;
+  max-width: 1360px;
+  min-width: 320px;
+  box-sizing: border-box;
+}
+  
+@media screen and (max-width: 1400px) {
+  .in-team__wrapper {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .in-team__wrapper {
+    padding: 40px 20px;
+    background-color: rgba(235, 233, 237, 1);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .in-team__wrapper {
+    padding: 40px 19px;
+  }
+}

@@ -1,6 +1,10 @@
 .in-team__list {
   display: flex;
   align-items: center;
-  /* width: 110%; */
   overflow-x: scroll;
+  margin-top: 12px;
+}
+
+.in-team__list::-webkit-scrollbar {
+  width: 0;
 }
