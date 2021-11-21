@@ -1,0 +1,11 @@
+.promo__section-more{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+@media all and (max-width: 767px) {
+    .promo__section-more {
+        margin-bottom: 20px;
+    }
+}

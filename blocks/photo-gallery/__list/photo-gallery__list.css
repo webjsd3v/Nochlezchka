@@ -1,6 +1,4 @@
 .photo-gallery__list {
-  margin-top: 40px;
-  margin-right: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -34,8 +32,12 @@
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 561px) {
   .photo-gallery__list {
-   display: none;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "topLeft topCenter midLeft botLeft botCenter1";
+    overflow-x: scroll;
   }
 }

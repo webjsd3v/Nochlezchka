@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ГедонизмФест</title>
     <link rel="icon" href="./img/html/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
@@ -30,7 +29,7 @@
                         </li>
                     </ul>
                 </nav>
-                <button class="header__event" type="button">хочу пойти</button>
+                <button class="header__event button button_head" type="button">хочу пойти</button>
             </div>
             <button class="header__burger form-scroll__menu_off" type="button"><img src="./img/header/icon_burger.svg"
                     alt="Развернуть"></button>
@@ -40,10 +39,14 @@
 
     <main class="content">
 
-        <section class="promo">
-            <img class="promo__logo" src="img/header/promo__logo.svg" alt="Главный логотип">
-            <a class="promo__follow-up" href="#check-events">узнать больше</a>
-            <button class="promo__button" type="button">&#8595;</button>
+        <section class="promo-section">
+            <div class="promo">
+                <img class="promo__logo" src="img/header/promo__logo.svg" alt="Главный логотип">
+            </div>
+            <div class="promo__section-more">
+                <a class="promo__follow-up" href="#check_down">узнать больше</a>
+                <button class="promo__button" type="button">&#8595;</button>
+            </div>
         </section>
 
         <section class="about">
@@ -96,105 +99,94 @@
                         <a class="card__link" href="#">
                             <img class="card__img" src="img/events/food_and_drink1.jpg" alt="Обложка">
                         </a>
-                        <p class="card__descr">лектор: Мария Бархатова</p>
-                        <div class="card__footer">
-                            <p class="card__address">улица Блохина, 22</p>
-                            <a class="card__links" href="#">+ ещё <span class="number-of-addresses">3</span></a>
+                        <div class="card__content">
+                            <div class="card__wrapper">
+                                <p class="card__type">еда и напитки</p>
+                                <p class="card__time">Пн-Вс, 10:00-22:00</p>
+                            </div>
+                            <a class="card__title-link" href="#">
+                                <h3 class="card__title">xачапури и вино</h3>
+                            </a>
+                            <p class="card__descr">капучино, эспрессо и американо в пользу Ночлежки</p>
+                            <div class="card__footer">
+                                <p class="card__address">Малая Конюшенная улицa</p>
+                                <a class="card__links" href="#">+ ещё <span class="number-of-addresses">4</span></a>
+                            </div>
                         </div>
-                    </div>
-                </article>
-                <article class="card">
-                    <button class="card__btn" type="button"></button>
-                    <a class="card__link" href="#">
-                        <img class="card__img" src="img/events/food_and_drink1.jpg" alt="Обложка">
-                    </a>
-                    <div class="card__content">
-                        <div class="card__wrapper">
-                            <p class="card__type">еда и напитки</p>
-                            <p class="card__time">Пн-Вс, 10:00-22:00</p>
-                        </div>
-                        <a class="card__title-link" href="#">
-                            <h3 class="card__title">xачапури и вино</h3>
+                    </article>
+                    <article class="card">
+                        <button class="card__btn" type="button"></button>
+                        <a class="card__link" href="#">
+                            <img class="card__img" src="img/events/food_and_drink2.jpg" alt="Обложка">
                         </a>
-                        <p class="card__descr">капучино, эспрессо и американо в пользу Ночлежки</p>
-                        <div class="card__footer">
-                            <p class="card__address">Малая Конюшенная улицa</p>
-                            <a class="card__links" href="#">+ ещё <span class="number-of-addresses">4</span></a>
+                        <div class="card__content">
+                            <div class="card__wrapper">
+                                <p class="card__type">еда и напитки</p>
+                                <p class="card__time">Пн-Вс, 10:00-22:00</p>
+                            </div>
+                            <a class="card__title-link" href="#">
+                                <h3 class="card__title">coffee therapy</h3>
+                            </a>
+                            <p class="card__descr">кофе и угощения в пользу Ночлежки</p>
+                            <div class="card__footer">
+                                <p class="card__address">улица Льва Толстого, 5</p>
+                                <a class="card__links" href="#">+ ещё <span class="number-of-addresses">24</span></a>
+                            </div>
                         </div>
-                    </div>
-                </article>
-                <article class="card">
-                    <button class="card__btn" type="button"></button>
-                    <a class="card__link" href="#">
-                        <img class="card__img" src="img/events/food_and_drink2.jpg" alt="Обложка">
-                    </a>
-                    <div class="card__content">
-                        <div class="card__wrapper">
-                            <p class="card__type">еда и напитки</p>
-                            <p class="card__time">Пн-Вс, 10:00-22:00</p>
-                        </div>
-                        <a class="card__title-link" href="#">
-                            <h3 class="card__title">coffee therapy</h3>
+                    </article>
+                    <article class="card">
+                        <button class="card__btn" type="button"></button>
+                        <a class="card__link" href="#">
+                            <img class="card__img" src="img/events/assembly.jpg" alt="Обложка">
                         </a>
-                        <p class="card__descr">кофе и угощения в пользу Ночлежки</p>
-                        <div class="card__footer">
-                            <p class="card__address">улица Льва Толстого, 5</p>
-                            <a class="card__links" href="#">+ ещё <span class="number-of-addresses">24</span></a>
+                        <div class="card__content">
+                            <div class="card__wrapper">
+                                <p class="card__type">посиделки</p>
+                            </div>
+                            <a class="card__title-link" href="#">
+                                <h3 class="card__title">апрельский хэллоуин у Ники</h3>
+                            </a>
+                            <p class="card__descr">закрытое событие</p>
                         </div>
-                    </div>
-                </article>
-                <article class="card">
-                    <button class="card__btn" type="button"></button>
-                    <a class="card__link" href="#">
-                        <img class="card__img" src="img/events/assembly.jpg" alt="Обложка">
-                    </a>
-                    <div class="card__content">
-                        <div class="card__wrapper">
-                            <p class="card__type">посиделки</p>
-                        </div>
-                        <a class="card__title-link" href="#">
-                            <h3 class="card__title">апрельский хэллоуин у Ники</h3>
+                    </article>
+                    <article class="card">
+                        <button class="card__btn" type="button"></button>
+                        <a class="card__link" href="#">
+                            <img class="card__img" src="img/events/lecture.jpg" alt="Обложка">
                         </a>
-                        <p class="card__descr">закрытое событие</p>
-                    </div>
-                </article>
-                <article class="card">
-                    <button class="card__btn" type="button"></button>
-                    <a class="card__link" href="#">
-                        <img class="card__img" src="img/events/lecture.jpg" alt="Обложка">
-                    </a>
-                    <div class="card__content">
-                        <div class="card__wrapper">
-                            <p class="card__type">лекция</p>
-                            <p class="card__time">1 мая, 12:30-13:50</p>
+                        <div class="card__content">
+                            <div class="card__wrapper">
+                                <p class="card__type">лекция</p>
+                                <p class="card__time">1 мая, 12:30-13:50</p>
+                            </div>
+                            <a class="card__title-link" href="#">
+                                <h3 class="card__title">идентичность: почему нам сложно меняться?</h3>
+                            </a>
+                            <p class="card__descr">лектор: Мария Бархатова</p>
+                            <div class="card__footer">
+                                <p class="card__address">улица Блохина, 22</p>
+                                <a class="card__links" href="#">+ ещё <span class="number-of-addresses">3</span></a>
+                            </div>
                         </div>
-                        <a class="card__title-link" href="#">
-                            <h3 class="card__title">идентичность: почему нам сложно меняться?</h3>
+                    </article>
+                    <article class="card">
+                        <button class="card__btn" type="button"></button>
+                        <a class="card__link" href="#">
+                            <img class="card__img" src="img/events/food_and_drink1.jpg" alt="Обложка">
                         </a>
-                        <p class="card__descr">лектор: Мария Бархатова</p>
-                        <div class="card__footer">
-                            <p class="card__address">улица Блохина, 22</p>
-                            <a class="card__links" href="#">+ ещё <span class="number-of-addresses">3</span></a>
-                        </div>
-                    </div>
-                </article>
-                <article class="card">
-                    <button class="card__btn" type="button"></button>
-                    <a class="card__link" href="#">
-                        <img class="card__img" src="img/events/food_and_drink1.jpg" alt="Обложка">
-                    </a>
-                    <div class="card__content">
-                        <div class="card__wrapper">
-                            <p class="card__type">еда и напитки</p>
-                            <p class="card__time">Пн-Вс, 10:00-22:00</p>
-                        </div>
-                        <a class="card__title-link" href="#">
-                            <h3 class="card__title">xачапури и вино</h3>
-                        </a>
-                        <p class="card__descr">капучино, эспрессо и американо в пользу Ночлежки</p>
-                        <div class="card__footer">
-                            <p class="card__address">Малая Конюшенная улицa</p>
-                            <a class="card__links" href="#">+ ещё <span class="number-of-addresses">4</span></a>
+                        <div class="card__content">
+                            <div class="card__wrapper">
+                                <p class="card__type">еда и напитки</p>
+                                <p class="card__time">Пн-Вс, 10:00-22:00</p>
+                            </div>
+                            <a class="card__title-link" href="#">
+                                <h3 class="card__title">xачапури и вино</h3>
+                            </a>
+                            <p class="card__descr">капучино, эспрессо и американо в пользу Ночлежки</p>
+                            <div class="card__footer">
+                                <p class="card__address">Малая Конюшенная улицa</p>
+                                <a class="card__links" href="#">+ ещё <span class="number-of-addresses">4</span></a>
+                            </div>
                         </div>
                     </article>
                 </div>
@@ -207,7 +199,7 @@
             <h2 class="numbers__title">цифры дня</h2>
             <div class="numbers__wrapper">
                 <div class="numbers__illustration-left">
-                    <div class="numbers__container-left">
+                    <div class="numders__container-left">
                         <span class="numders__number">2 500</span>
                         <p class="numders__info">cтолько обедов приготовили для нуждающихся</p>
                     </div>
@@ -239,82 +231,76 @@
         </section>
 
         <section class="section photo-gallery" aria-label="Фото галерея">
-            <div class="photo-gallery__wrapper">
+            <div class="container">
                 <h2 class="page__title">#hedonismfest</h2>
                 <p class="page__subtitle">Ставь хештег и попади в ленту на сайте</p>
                 <ul class="page__list photo-gallery__list">
-                    <li class="photo-gallery__first-item"><img class="photo-gallery__img" src="img/hedonismfest/Rectangle.jpg" alt="Набережная Москва-реки"></li>
-                    <li class="photo-gallery__second-item"><img class="photo-gallery__img" src="img/hedonismfest/Rectanglre.jpg" alt="Наши люди на отдыхе"></li>
-                    <li class="photo-gallery__third-item"><img class="photo-gallery__img" src="img/hedonismfest/Rectange.jpg" alt="Выставка наших работ"></li>
-                    <li class="photo-gallery__fourth-item"><img class="photo-gallery__img" src="img/hedonismfest/Rectngle.jpg" alt="Прошлый фестиваль"></li>
-                    <li class="photo-gallery__fifth-item"><img class="photo-gallery__img" src="img/hedonismfest/Retangle.jpg" alt="Мы ждем и тебя"></li>
-                </ul>
-    
-                <div class="swiper photo-gallery__mobile swiper-h">
-                    <ul class=" page__list swiper-wrapper " id="photo-gallery-mobile">
-                        <li class="swiper-slide"><img class="photo-gallery__img" src="img/hedonismfest/Rectangle.jpg" alt="Набережная Москва-реки"></li>
-                        <li class="swiper-slide"><img class="photo-gallery__img" src="img/hedonismfest/Rectanglre.jpg" alt="Наши люди на отдыхе"></li>
-                        <li class="swiper-slide"><img class="photo-gallery__img" src="img/hedonismfest/Rectange.jpg" alt="Выставка наших работ"></li>
-                        <li class="swiper-slide"><img class="photo-gallery__img" src="img/hedonismfest/Rectngle.jpg" alt="Прошлый фестиваль"></li>
-                        <li class="swiper-slide"><img class="photo-gallery__img" src="img/hedonismfest/Retangle.jpg" alt="Мы ждем и тебя"></li>
-                    </ul>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div> 
-        </section>
-
-        <section class="section in-team " aria-label="Кто уже в нашей команде">
-            <div class="in-team__wrapper">
-                <h2 class="page__title">уже в команде</h2>
-                <ul class="page__list in-team__list">
-                    <li class="in-team__list-item"><a href="#" class="in-team__link"><img src="img/footer/logofirst.png" alt="компания SERF"></a></li>
-                    <li class="in-team__list-item"><a href="#" class="in-team__link" ><img src="img/footer/logosecond.png" alt="ГАЛЕРЕЯ СПБ"></a></li>
-                    <li class="in-team__list-item"><a href="#" class="in-team__link" ><img src="img/footer/logothird.png" alt="Василеостровский рынок"></a></li>
-                    <li class="in-team__list-item"><a href="#" class="in-team__link" ><img src="img/footer/logofirst.png" alt="компания SERF"></a></li>
-                    <li class="in-team__list-item"><a href="#" class="in-team__link" ><img src="img/footer/logosecond.png" alt="ГАЛЕРЕЯ СПБ"></a></li>
-                    <li class="in-team__list-item"><a href="#" class="in-team__link" ><img src="img/footer/logothird.png" alt="Василеостровский рынок"></a></li>
-                    <li class="in-team__list-item"><a href="#" class="in-team__link" ><img src="img/footer/logofirst.png" alt="компания SERF"></a></li>
-                    <li class="in-team__list-item"><a href="#" class="in-team__link" ><img src="img/footer/logosecond.png" alt="ГАЛЕРЕЯ СПБ"></a></li>
-                    <li class="in-team__list-item"><a href="#" class="in-team__link" ><img src="img/footer/logothird.png" alt="Василеостровский рынок"></a></li>
+                    <li class="photo-gallery__one-item"><img class="photo-gallery__img"
+                            src="img/hedonismfest/Rectangle.jpg" alt=""></li>
+                    <li class="photo-gallery__two-item"><img class="photo-gallery__img"
+                            src="img/hedonismfest/Rectanglre.jpg" alt=""></li>
+                    <li class="photo-gallery__three-item"><img class="photo-gallery__img"
+                            src="img/hedonismfest/Rectange.jpg" alt=""></li>
+                    <li class="photo-gallery__four-item"><img class="photo-gallery__img"
+                            src="img/hedonismfest/Rectngle.jpg" alt=""></li>
+                    <li class="photo-gallery__five-item"><img class="photo-gallery__img"
+                            src="img/hedonismfest/Retangle.jpg" alt=""></li>
                 </ul>
             </div>
         </section>
 
+        <section class="section in-team " aria-label="Кто уже в нашей команде">
+            <div class="container">
+                <h2 class="page__title">уже в команде</h2>
+                <ul class="page__list in-team__list">
+                    <li class="in-team__list-item"><img src="img/footer/logofirst.png" alt="компания SERF"></li>
+                    <li class="in-team__list-item"><img src="img/footer/logosecond.png" alt="ГАЛЕРЕЯ СПБ"></li>
+                    <li class="in-team__list-item"><img src="img/footer/logothird.png" alt="Василеостровский рынок">
+                    </li>
+                    <li class="in-team__list-item"><img src="img/footer/logofirst.png" alt="компания SERF"></li>
+                    <li class="in-team__list-item"><img src="img/footer/logosecond.png" alt="ГАЛЕРЕЯ СПБ"></li>
+                    <li class="in-team__list-item"><img src="img/footer/logothird.png" alt="Василеостровский рынок">
+                    </li>
+                    <li class="in-team__list-item"><img src="img/footer/logofirst.png" alt="компания SERF"></li>
+                    <li class="in-team__list-item"><img src="img/footer/logosecond.png" alt="ГАЛЕРЕЯ СПБ"></li>
+                    <li class="in-team__list-item"><img src="img/footer/logothird.png" alt="Василеостровский рынок">
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
-
     <footer class="footer">
-        <div class="footer__container">
+        <div class="container footer__container">
             <img class="footer__logo" src="img/footer/footer-illustration.svg" alt="Ночлежка">
-            <nav class="footer__nav footer__organizer">
+            <nav class="footer__nav">
                 <h3 class="footer__title">организатор:</h3>
-                <ul class="page__list ">
+                <ul class="page__list footer__organizer">
                     <li>
-                        <a class="footer__link page__link" href="https://homeless.ru/">Ночлежка</a>
+                        <a class="footer__link page__link" href="#">Ночлежка</a>
                     </li>
                     <li>
                         <a class="footer__mail" href="mailto:info@hedonismfest.ru">info@hedonismfest.ru</a>
                     </li>
                 </ul>
             </nav>
-            <nav class="footer__nav footer__made-with-love">
+            <nav class="footer__nav">
                 <h3 class="footer__title">сделано с любовью:</h3>
-                <ul class="page__list ">
+                <ul class="page__list footer__made-with-love">
                     <li class="">
-                        <a class="footer__link page__link" href="https://fastsol.digital/">Fastsol Digital</a>
+                        <a class="footer__link page__link" href="#">Fastsol Digital</a>
                     </li>
                     <li class="">
-                        <a class="footer__link page__link" href="https://shishki.co/">shishki.collective</a>
+                        <a class="footer__link page__link" href="#">shishki.collective</a>
                     </li>
                     <li class="">
-                        <a class="footer__link page__link" href="https://practicum.yandex.ru/">студентами Яндекс.Практикума</a>
+                        <a class="footer__link page__link" href="#">студентами Яндекс.Практикума</a>
                     </li>
                 </ul>
             </nav>
-
-            <nav class="footer__nav footer__social">
+            <nav class="footer__nav">
                 <h3 class="footer__title">мы в соцсетях:</h3>
-                <ul class="page__list ">
-                               
+
+                <ul class=" page__list footer__social">
                     <li class="">
                         <a class="footer__social-link" href="#"><img class="footer__social-image"
                                 src="img/footer/icons/facebook.svg" alt="facebook"></a>
@@ -404,17 +390,14 @@
             <button class="form-scroll__back" type="button">← назад</button>
             <p class="form-scroll__text">ваш город:</p>
             <p class="form-scroll__this-sity">Москва</p>
-            <div class="form-scroll__check-section">
-                <p class="form-scroll__this-sity">Санкт-Петербург</p>
-                <img src="./img/header/Galka.svg" alt="ваш город">
-            </div>
+            <p class="form-scroll__this-sity">Санкт-Петербург</p>
             <p class="form-scroll__this-sity">Сочи</p>
             <p class="form-scroll__this-sity">Калуга</p>
             <p class="form-scroll__this-sity">Екатеринбург</p>
         </fieldset>
     </form>
     <!-- >>>>>>> 7432796050c1570626e2dae237252b65cbe368f2 -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <script src="./scripts/index.js"></script>
 </body>
 
