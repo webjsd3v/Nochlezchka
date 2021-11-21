@@ -1,5 +1,5 @@
 @import "../vendor/normalize.css";
-@import "../blocks/root/root.css";
+@import "../vendor/variables.css";
 @import "../vendor/fonts/fonts.css";
 @import "../blocks/page/page.css";
 /*--- HEADER ---*/
@@ -51,13 +51,13 @@
 @import "../blocks/form-donate/__container/form-donate__container.css";
 @import "../blocks/form-donate/__close/form-donate__close.css";
 @import "../blocks/form-donate/__email/form-donate__email.css";
+@import "../blocks/form-donate/__button/form-donate__button.css";
 @import "../blocks/form-donate/__link/form-donate__link.css";
 @import "../blocks/form-donate/__section-sum/form-donate__section-sum.css";
 @import "../blocks/form-donate/__title/form-donate__title.css";
 @import "../blocks/form-donate/__subtitle/form-donate__subtitle.css";
 @import "../blocks/form-donate/__section-title/form-donate__section-title.css";
 @import "../blocks/form-donate/form-donate.css";
-@import "../blocks/form-donate/_opened/form-donate_opened.css";
 @import "../blocks/form-donate/__text/form-donate__text.css";
 @import "../blocks/form-donate/__section-radio/form-donate__section-radio.css";
 @import "../blocks/form-donate/__swipe/form-donate__swipe.css";
@@ -93,15 +93,18 @@
 @import "../blocks/numbers/numbers.css";
 @import "../blocks/numbers/__wrapper/numbers__wrapper.css";
 @import "../blocks/numbers/__title/numbers__title.css";
-@import "../blocks/numbers/__illustration-left/numbers__illustration-left.css";
-@import "../blocks/numbers/__container-left/numbers__container-left.css";
-@import "../blocks/numbers/__container-right/numders__container-right.css";
+@import "../blocks/numbers/__illustration-flower/numbers__illustration-flower.css";
+@import "../blocks/numbers/__flower-number/numbers__flower-number.css";
+@import "../blocks/numbers/__flower-info/numbers__flower-info.css";
+@import "../blocks/numbers/__illustration-glasses/numbers__illustration-glasses.css";
+@import "../blocks/numbers/__illustrations/numbers__illustrations.css";
+@import "../blocks/numbers/__illustration-curl/numbers__illustration-curl.css";
+@import "../blocks/numbers/__illustration-drops/numbers__illustration-drops.css";
+@import "../blocks/numbers/__glasses-number/numbers__glasses-number.css";
+@import "../blocks/numbers/__glasses-info/numbers__glasses-info.css";
 @import "../blocks/numbers/__number/numders__number.css";
 @import "../blocks/numbers/__info/numders__info.css";
-@import "../blocks/numbers/__illustration-rigth/numbers__illustration-rigth.css";
-@import "../blocks/numbers/__illustration-center/numbers__illustration-center.css";
-@import "../blocks/numbers/__illustration-down/numbers__illustration-down.css";
-@import "../blocks/numbers/__illustration-up/numbers__illustration-up.css";
+@import "../blocks/numbers/__illustration-glasses/numbers__illustration-glasses.css";
 /*info*/
 @import "../blocks/info/info.css";
 @import "../blocks/info/__container/info__container.css";

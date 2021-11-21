@@ -1,0 +1,22 @@
+.numbers__glasses-info {
+  font-family: 'TT Firs Neue', Arial, sans-serif;
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--dark-primary);
+  max-width: 303px;
+  position: absolute;
+  top: calc(480px - 88px);
+}
+
+@media screen and (max-width: 1200px) {
+  .numbers__glasses-info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    top: 372px;
+    left: 8px;
+  }
+}

@@ -1,7 +1,7 @@
 .events {
   box-sizing: border-box;
   background-color: var(--light-secondary);
-  padding: 80px 0 92px 0;
+  padding: 80px 0 80px 0;
 }
 
 @media screen and (max-width: 700px) {

@@ -9,5 +9,6 @@
 @media screen and (max-width: 1200px) {
   .numbers__wrapper {
     flex-flow: column wrap;
+    margin-bottom: 40px;
   }
 }

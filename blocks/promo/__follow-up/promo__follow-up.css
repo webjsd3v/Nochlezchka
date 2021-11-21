@@ -7,3 +7,12 @@
   text-decoration: none;
   color: #3B3748;
 }
+
+
+@media screen and (max-width: 768px){
+  .promo__follow-up {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 140px 0 8px 0;
+  }
+}

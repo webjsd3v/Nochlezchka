@@ -1,4 +1,4 @@
-.numbers__illustration-center {
+.numbers__illustrations {
   position: relative;
   top: -110px;
   right: 181px;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 1325px) {
-  .numbers__illustration-center {
+  .numbers__illustrations {
     display: none;
   }
 }

@@ -1,0 +1,6 @@
+.numbers__illustration-drops {
+  justify-content: end;
+  width: 88px;
+  height: 146px;
+  background: url("../../../img/numbers/illustration-down.svg");
+}

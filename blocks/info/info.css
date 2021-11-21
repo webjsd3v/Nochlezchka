@@ -7,7 +7,7 @@
 
 @media (max-width: 768px) {
   .info {
-    padding: 40px 0;
+    padding: 40px 0  43px;
     background: var(--warning-error);
     color: var(--white);
   }

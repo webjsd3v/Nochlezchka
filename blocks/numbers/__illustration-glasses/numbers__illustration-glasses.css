@@ -1,4 +1,4 @@
-.numbers__illustration-rigth {
+.numbers__illustration-glasses {
   position: relative;
   order: 2;
   width: 543px;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .numbers__illustration-rigth {
+  .numbers__illustration-glasses {
     margin: 0 auto;
     order: 1;
     max-height: 412px;

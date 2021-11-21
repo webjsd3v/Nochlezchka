@@ -1,5 +1,4 @@
 .header__location-button{
     border: none;
-    background-color: white;
-    background-color: #ffd400;
+    background-color: var(--color-accident);
   }

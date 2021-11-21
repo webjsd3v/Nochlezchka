@@ -1,11 +1,13 @@
 .about__button {
   margin: 31px 0 0 0;
+  padding: 11px 22px;
   display: flex;
-  max-width: 210px;
+  max-width: 204px;
 }
 
 @media screen and (max-width: 700px) {
   .about__button {
     max-width: 190px;
+    margin: 19px 0 0 0;
   }
 }

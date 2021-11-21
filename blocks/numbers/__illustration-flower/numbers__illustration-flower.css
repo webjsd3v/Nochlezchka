@@ -1,4 +1,4 @@
-.numbers__illustration-left {
+.numbers__illustration-flower {
   position: relative;
   width: 543px;
   height: 480px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .numbers__illustration-left {
+  .numbers__illustration-flower {
     max-height: 412px;
     background: url("../../../img/numbers/illustration-left-m.svg") no-repeat;
     width: 320px;

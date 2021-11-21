@@ -26,11 +26,37 @@
   opacity: 0.6;
 }
 
-.page_title {
+.page__title {
+  margin: 0;
   font-weight: 500;
   font-size: 48px;
   line-height: 52px;
   letter-spacing: -0.01em;
   text-transform: lowercase;
+}
 
+.page__subtitle{
+  margin: 24px 0 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+
+@media screen and  (max-width: 768px){
+  .page__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .page__subtitle{
+    margin: 8px 0 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
