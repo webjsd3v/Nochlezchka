@@ -11,10 +11,8 @@
 
 @media all and (max-width: 767px) {
   .promo {
-    background-position-y: -68px;
-    padding: 175px 0 40px 0;
+    padding: 45px 0 14px 0;
     background-size: cover;
     background-image: url('../../img/header/Header_mobile.png');
   }
 }
-

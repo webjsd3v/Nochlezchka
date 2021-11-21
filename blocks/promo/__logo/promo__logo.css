@@ -1,12 +1,14 @@
 .promo__logo {
   display: block;
   margin: 0 auto 110px;
+  margin-bottom: 150px;
 }
 
 @media all and (max-width: 767px) {
   .promo__logo {
     width: 210px;
     height: 152px;
-    margin: 0 auto 253px;
+    margin-bottom: 245px;
+    margin-top: 127px;
   }
 }
