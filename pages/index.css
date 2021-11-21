@@ -18,6 +18,7 @@
   /*--- BUTTON ---*/
 @import "../blocks/button/button.css";
 @import "../blocks/button/_color_accent/button_color_accent.css";
+@import "../blocks/button/_head/button_head.css";
   /*--- PROMO ---*/
 @import "../blocks/promo/promo.css";
 @import "../blocks/promo/__logo/promo__logo.css";
@@ -46,7 +47,6 @@
 @import "../blocks/form-scroll/__str/form-scroll__str.css";
 @import "../blocks/form-scroll/__back/form-scroll__back.css";
 @import "../blocks/form-scroll/__menu/_off/form-scroll__menu_off.css";
-@import "../blocks/form-scroll/__check-section/form-scroll__check-section.css";
 /*  FORM DONATE  */
 @import "../blocks/form-donate/__container/form-donate__container.css";
 @import "../blocks/form-donate/__close/form-donate__close.css";

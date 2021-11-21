@@ -26,6 +26,7 @@ window.addEventListener("resize", function () {
         remClass(headButton, 'form-scroll__menu_off')
         remClass(menu, 'form-scroll__menu_off')
         addClass(form, 'form-scroll__menu_off')
+        addClass(formSity, 'form-scroll__menu_off')
     }
 });
 
@@ -58,11 +59,8 @@ formDonateClose.addEventListener('click', function () {
 const buttonStr = document.querySelector('.form-scroll__str');
 const buttonStrBack = document.querySelector('.form-scroll__back');
 const formSity = document.getElementById('form-sity');
-const formSityButtonDesk = document.querySelector('.header__location')
 
-formSityButtonDesk.addEventListener('click', function () {
-    remClass(formSity, 'form-scroll__menu_off')
-});
+
 
 buttonStr.addEventListener('click', function () {
     remClass(formSity, 'form-scroll__menu_off')
